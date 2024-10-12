@@ -1,0 +1,32 @@
+nav{
+    color: #fff;
+    width: 100%;
+    padding: 4px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.logo{
+    width: 180px;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem; 
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 16px;
+}
+
+.nav-dark{
+    background-color: #212EA0;
+    transition: 0.5s;
+}
